@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{78AA6736-0B36-446A-BB6C-58F58BF3514D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Interact.BusinessLogic</RootNamespace>
+    <AssemblyName>BusinessLogic</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AmortSchedule.cs" />
+    <Compile Include="AppConfigHelper.cs" />
+    <Compile Include="Area.cs" />
+    <Compile Include="Components\Common\AESCryptography.cs" />
+    <Compile Include="Components\Common\Enumerations.cs" />
+    <Compile Include="Components\Common\Filter.cs" />
+    <Compile Include="Components\Common\GenericList.cs" />
+    <Compile Include="Components\Common\Interfaces.cs" />
+    <Compile Include="Components\Common\PropertyComparer.cs" />
+    <Compile Include="Components\Common\ServerInfo.cs" />
+    <Compile Include="Components\Common\TList.cs" />
+    <Compile Include="Components\Common\Utility.cs" />
+    <Compile Include="Components\Interfaces\IEndingReportProvider.cs" />
+    <Compile Include="Components\Interfaces\IRepossessBalanceProvider.cs" />
+    <Compile Include="Components\Interfaces\ICollectionProvider.cs" />
+    <Compile Include="Components\Interfaces\ICustomerProvider.cs" />
+    <Compile Include="Components\Interfaces\IDatabaseProvider.cs" />
+    <Compile Include="Components\Interfaces\IEmployeeProvider.cs" />
+    <Compile Include="Components\Interfaces\ILedgerProvider.cs" />
+    <Compile Include="Components\Interfaces\IPaymentFrequencyProvider.cs" />
+    <Compile Include="Components\Interfaces\IPaymentProvider.cs" />
+    <Compile Include="Components\Interfaces\IReceivableProvider.cs" />
+    <Compile Include="Components\Interfaces\ISalesProvider.cs" />
+    <Compile Include="Components\Interfaces\ISettingsProvider.cs" />
+    <Compile Include="Components\Interfaces\IVehicleProvider.cs" />
+    <Compile Include="Components\Interfaces\IVehicleRegistrationProvider.cs" />
+    <Compile Include="Components\Interfaces\IZoneGroupProvider.cs" />
+    <Compile Include="Components\Interfaces\IZoneProvider.cs" />
+    <Compile Include="Components\Managers\CollectionManager.cs" />
+    <Compile Include="Components\Managers\RepossessBalanceManager.cs" />
+    <Compile Include="Components\Managers\EmployeeManager.cs" />
+    <Compile Include="Components\Managers\CustomerManager.cs" />
+    <Compile Include="Components\Managers\LedgerManager.cs" />
+    <Compile Include="Components\Managers\PaymentManager.cs" />
+    <Compile Include="Components\Managers\ReceivableManager.cs" />
+    <Compile Include="Components\Managers\SalesManager.cs" />
+    <Compile Include="Components\Managers\SettingsManager.cs" />
+    <Compile Include="Components\Managers\VehicleManager.cs" />
+    <Compile Include="Components\Managers\VehicleRegistrationManager.cs" />
+    <Compile Include="Components\Managers\ZoneGroupManager.cs" />
+    <Compile Include="Components\Managers\ZoneManager.cs" />
+    <Compile Include="EndingReport.cs" />
+    <Compile Include="Customer.cs" />
+    <Compile Include="Employee.cs" />
+    <Compile Include="InstallmentReceivable.cs" />
+    <Compile Include="Ledger.cs" />
+    <Compile Include="Payment.cs" />
+    <Compile Include="PaymentFrequency.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Receivable.cs" />
+    <Compile Include="Sales.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="Vehicle.cs" />
+    <Compile Include="VehicleRegistration.cs" />
+    <Compile Include="Zone.cs" />
+    <Compile Include="ZoneGroup.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

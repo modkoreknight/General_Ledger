@@ -1,0 +1,49 @@
+C:\Temp\GeneralLedger\BusinessLogic\bin\Debug\BusinessLogic.dll
+C:\Temp\GeneralLedger\BusinessLogic\bin\Debug\BusinessLogic.pdb
+C:\Temp\GeneralLedger\BusinessLogic\obj\Debug\ResolveAssemblyReference.cache
+C:\Temp\GeneralLedger\BusinessLogic\obj\Debug\BusinessLogic.dll
+C:\Temp\GeneralLedger\BusinessLogic\obj\Debug\BusinessLogic.pdb
+D:\Temporary\GeneralLedger\BusinessLogic\bin\Debug\BusinessLogic.dll
+D:\Temporary\GeneralLedger\BusinessLogic\bin\Debug\BusinessLogic.pdb
+D:\Temporary\GeneralLedger\BusinessLogic\obj\Debug\BusinessLogic.dll
+D:\Temporary\GeneralLedger\BusinessLogic\obj\Debug\BusinessLogic.pdb
+C:\Users\LSMJ\Documents\LSMJ Final\BusinessLogic\bin\Debug\BusinessLogic.dll
+C:\Users\LSMJ\Documents\LSMJ Final\BusinessLogic\bin\Debug\BusinessLogic.pdb
+C:\Users\LSMJ\Documents\LSMJ Final\BusinessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
+C:\Users\LSMJ\Documents\LSMJ Final\BusinessLogic\obj\Debug\BusinessLogic.dll
+C:\Users\LSMJ\Documents\LSMJ Final\BusinessLogic\obj\Debug\BusinessLogic.pdb
+E:\LSMJ Final\BusinessLogic\bin\Debug\BusinessLogic.dll
+E:\LSMJ Final\BusinessLogic\bin\Debug\BusinessLogic.pdb
+E:\LSMJ Final\BusinessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
+E:\LSMJ Final\BusinessLogic\obj\Debug\BusinessLogic.dll
+E:\LSMJ Final\BusinessLogic\obj\Debug\BusinessLogic.pdb
+C:\Users\MIS HOME\Documents\LSMJ Final\BusinessLogic\bin\Debug\BusinessLogic.dll
+C:\Users\MIS HOME\Documents\LSMJ Final\BusinessLogic\bin\Debug\BusinessLogic.pdb
+C:\Users\MIS HOME\Documents\LSMJ Final\BusinessLogic\obj\Debug\BusinessLogic.dll
+C:\Users\MIS HOME\Documents\LSMJ Final\BusinessLogic\obj\Debug\BusinessLogic.pdb
+C:\Users\MIS HOME\Desktop\LSMJ Final\BusinessLogic\bin\Debug\BusinessLogic.dll
+C:\Users\MIS HOME\Desktop\LSMJ Final\BusinessLogic\bin\Debug\BusinessLogic.pdb
+C:\Users\MIS HOME\Desktop\LSMJ Final\BusinessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
+C:\Users\MIS HOME\Desktop\LSMJ Final\BusinessLogic\obj\Debug\BusinessLogic.dll
+C:\Users\MIS HOME\Desktop\LSMJ Final\BusinessLogic\obj\Debug\BusinessLogic.pdb
+F:\LSMJ Final\BusinessLogic\bin\Debug\BusinessLogic.dll
+F:\LSMJ Final\BusinessLogic\bin\Debug\BusinessLogic.pdb
+F:\LSMJ Final\BusinessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
+F:\LSMJ Final\BusinessLogic\obj\Debug\BusinessLogic.dll
+F:\LSMJ Final\BusinessLogic\obj\Debug\BusinessLogic.pdb
+C:\Users\TON\Documents\LSMJ Final\BusinessLogic\bin\Debug\BusinessLogic.dll
+C:\Users\TON\Documents\LSMJ Final\BusinessLogic\bin\Debug\BusinessLogic.pdb
+C:\Users\TON\Documents\LSMJ Final\BusinessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
+C:\Users\TON\Documents\LSMJ Final\BusinessLogic\obj\Debug\BusinessLogic.dll
+C:\Users\TON\Documents\LSMJ Final\BusinessLogic\obj\Debug\BusinessLogic.pdb
+D:\LSMJ Final\BusinessLogic\bin\Debug\BusinessLogic.dll
+D:\LSMJ Final\BusinessLogic\bin\Debug\BusinessLogic.pdb
+D:\LSMJ Final\BusinessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
+D:\LSMJ Final\BusinessLogic\obj\Debug\BusinessLogic.dll
+D:\LSMJ Final\BusinessLogic\obj\Debug\BusinessLogic.pdb
+I:\Star Systems\LSMJ Final Edited\LSMJ Final\BusinessLogic\bin\Debug\BusinessLogic.dll
+I:\Star Systems\LSMJ Final Edited\LSMJ Final\BusinessLogic\bin\Debug\BusinessLogic.pdb
+I:\Star Systems\LSMJ Final Edited\LSMJ Final\BusinessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
+I:\Star Systems\LSMJ Final Edited\LSMJ Final\BusinessLogic\obj\Debug\BusinessLogic.dll
+I:\Star Systems\LSMJ Final Edited\LSMJ Final\BusinessLogic\obj\Debug\BusinessLogic.pdb
+C:\Users\Admin\Documents\LSMJ Final Edited\LSMJ Final\BusinessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
