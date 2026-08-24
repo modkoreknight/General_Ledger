@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="RMCSystems">
+</Property><Property Name="Solution File" Value="C:\Temp\GeneralLedger\RMCSystems.sln">
+</Property><Property Name="Date" Value="Thursday, June 02, 2011">
+</Property><Property Name="Time" Value="16:19 PM">
+</Property></Properties><Event ErrorLevel="0" Project="GeneralLedger" Source="UserInterface\GeneralLedger.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="GeneralLedger" Source="UserInterface\GeneralLedger.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="BusinessLogic" Source="BusinessLogic\BusinessLogic.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="BusinessLogic" Source="BusinessLogic\BusinessLogic.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="DataAccess" Source="DataAccess\DataAccess.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="DataAccess" Source="DataAccess\DataAccess.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="C:\Temp\GeneralLedger\SqlScript\GeneralLedgerSql.dbp" Source="SqlScript\GeneralLedgerSql.dbp" Description="Beginning Upgrade">
+</Event><Event ErrorLevel="0" Project="C:\Temp\GeneralLedger\SqlScript\GeneralLedgerSql.dbp" Source="SqlScript\GeneralLedgerSql.dbp" Description="Converting deprecated dbp file 'C:\Temp\GeneralLedger\SqlScript\GeneralLedgerSql.dbp' to 'C:\Temp\GeneralLedger\SqlScript\GeneralLedgerSql.dbproj'">
+</Event><Event ErrorLevel="0" Project="C:\Temp\GeneralLedger\SqlScript\GeneralLedgerSql.dbp" Source="SqlScript\GeneralLedgerSql.dbp" Description="Successfully converted dbp to C:\Temp\GeneralLedger\SqlScript\GeneralLedgerSql.dbproj">
+</Event><Event ErrorLevel="3" Project="C:\Temp\GeneralLedger\SqlScript\GeneralLedgerSql.dbp" Source="SqlScript\GeneralLedgerSql.dbp" Description="Converted">
+</Event><Event ErrorLevel="0" Project="CommonLibrary" Source="CommonLibrary\CommonLibrary.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="CommonLibrary" Source="CommonLibrary\CommonLibrary.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ControlLibrary" Source="ControlLibrary\ControlLibrary.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ControlLibrary" Source="ControlLibrary\ControlLibrary.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="KeyGenerator" Source="KeyGenerator\KeyGenerator.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="KeyGenerator" Source="KeyGenerator\KeyGenerator.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Registration" Source="Registration\Registration.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Registration" Source="Registration\Registration.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="C:\Temp\GeneralLedger\RegistrationSql\RegistrationSql.dbp" Source="RegistrationSql\RegistrationSql.dbp" Description="Beginning Upgrade">
+</Event><Event ErrorLevel="0" Project="C:\Temp\GeneralLedger\RegistrationSql\RegistrationSql.dbp" Source="RegistrationSql\RegistrationSql.dbp" Description="Converting deprecated dbp file 'C:\Temp\GeneralLedger\RegistrationSql\RegistrationSql.dbp' to 'C:\Temp\GeneralLedger\RegistrationSql\RegistrationSql.dbproj'">
+</Event><Event ErrorLevel="0" Project="C:\Temp\GeneralLedger\RegistrationSql\RegistrationSql.dbp" Source="RegistrationSql\RegistrationSql.dbp" Description="Successfully converted dbp to C:\Temp\GeneralLedger\RegistrationSql\RegistrationSql.dbproj">
+</Event><Event ErrorLevel="3" Project="C:\Temp\GeneralLedger\RegistrationSql\RegistrationSql.dbp" Source="RegistrationSql\RegistrationSql.dbp" Description="Converted">
+</Event><Event ErrorLevel="0" Project="GeneralLedgerConsolidation" Source="GeneralLedgerConsolidation\GeneralLedgerConsolidation.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="GeneralLedgerConsolidation" Source="GeneralLedgerConsolidation\GeneralLedgerConsolidation.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="RMCSystems.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="RMCSystems.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="GeneralLedger" Source="UserInterface\GeneralLedger.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="BusinessLogic" Source="BusinessLogic\BusinessLogic.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="DataAccess" Source="DataAccess\DataAccess.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="CommonLibrary" Source="CommonLibrary\CommonLibrary.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ControlLibrary" Source="ControlLibrary\ControlLibrary.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="KeyGenerator" Source="KeyGenerator\KeyGenerator.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="Registration" Source="Registration\Registration.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="GeneralLedgerConsolidation" Source="GeneralLedgerConsolidation\GeneralLedgerConsolidation.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

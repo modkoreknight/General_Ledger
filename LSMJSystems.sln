@@ -1,0 +1,89 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CF8210C7-EE23-4499-8749-6385E662A185}"
+	ProjectSection(SolutionItems) = preProject
+		Patches\01 UPDATE Customer.bat = Patches\01 UPDATE Customer.bat
+		Patches\02 Fix negative ledger issue.bat = Patches\02 Fix negative ledger issue.bat
+		Patches\03 Add Sales columns.bat = Patches\03 Add Sales columns.bat
+		Patches\04 Add Vehicle column.bat = Patches\04 Add Vehicle column.bat
+		Reference\Microsoft.SqlServer.ConnectionInfo.dll = Reference\Microsoft.SqlServer.ConnectionInfo.dll
+		Reference\Microsoft.SqlServer.Smo.dll = Reference\Microsoft.SqlServer.Smo.dll
+		Reference\Microsoft.SqlServer.SmoEnum.dll = Reference\Microsoft.SqlServer.SmoEnum.dll
+		Reference\Microsoft.SqlServer.SqlEnum.dll = Reference\Microsoft.SqlServer.SqlEnum.dll
+		Patches\Payment.dll = Patches\Payment.dll
+		Patches\Sales.dll = Patches\Sales.dll
+		Patches\Sales_02.dll = Patches\Sales_02.dll
+		Patches\Serial codes.txt = Patches\Serial codes.txt
+		Patches\Vehicle.dll = Patches\Vehicle.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountLedger", "UserInterface\AccountLedger.csproj", "{D2168C38-8D41-4E4B-94AC-D5AECF6B074E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic", "BusinessLogic\BusinessLogic.csproj", "{78AA6736-0B36-446A-BB6C-58F58BF3514D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{6B442FFE-1CE9-43E6-B914-48BD908EEE10}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "GeneralLedgerSql", "SqlScript\GeneralLedgerSql.sqlproj", "{40A4BD2D-7F8F-466C-B234-62BBAC74D45B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonLibrary", "CommonLibrary\CommonLibrary.csproj", "{3A476784-B768-4668-A01E-77FFA5BE4A61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlLibrary", "ControlLibrary\ControlLibrary.csproj", "{69A1B026-F7FA-49F8-A058-58B59920D37B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyGenerator", "KeyGenerator\KeyGenerator.csproj", "{3BE4E88D-16B7-468E-A05F-BD07E51CEA21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Registration", "Registration\Registration.csproj", "{E56CEE79-FE8C-4EE4-9803-6C30D10C293B}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "RegistrationSql", "RegistrationSql\RegistrationSql.dbproj", "{AD5F9379-699C-4DE8-9EDD-D16196C043D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneralLedgerConsolidation", "GeneralLedgerConsolidation\GeneralLedgerConsolidation.csproj", "{9DCF335E-BAA8-4562-85BE-8632AE7AB6CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2168C38-8D41-4E4B-94AC-D5AECF6B074E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2168C38-8D41-4E4B-94AC-D5AECF6B074E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2168C38-8D41-4E4B-94AC-D5AECF6B074E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2168C38-8D41-4E4B-94AC-D5AECF6B074E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78AA6736-0B36-446A-BB6C-58F58BF3514D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78AA6736-0B36-446A-BB6C-58F58BF3514D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78AA6736-0B36-446A-BB6C-58F58BF3514D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78AA6736-0B36-446A-BB6C-58F58BF3514D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B442FFE-1CE9-43E6-B914-48BD908EEE10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B442FFE-1CE9-43E6-B914-48BD908EEE10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B442FFE-1CE9-43E6-B914-48BD908EEE10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B442FFE-1CE9-43E6-B914-48BD908EEE10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40A4BD2D-7F8F-466C-B234-62BBAC74D45B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40A4BD2D-7F8F-466C-B234-62BBAC74D45B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A476784-B768-4668-A01E-77FFA5BE4A61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A476784-B768-4668-A01E-77FFA5BE4A61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A476784-B768-4668-A01E-77FFA5BE4A61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A476784-B768-4668-A01E-77FFA5BE4A61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69A1B026-F7FA-49F8-A058-58B59920D37B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69A1B026-F7FA-49F8-A058-58B59920D37B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69A1B026-F7FA-49F8-A058-58B59920D37B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69A1B026-F7FA-49F8-A058-58B59920D37B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BE4E88D-16B7-468E-A05F-BD07E51CEA21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BE4E88D-16B7-468E-A05F-BD07E51CEA21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BE4E88D-16B7-468E-A05F-BD07E51CEA21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BE4E88D-16B7-468E-A05F-BD07E51CEA21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E56CEE79-FE8C-4EE4-9803-6C30D10C293B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E56CEE79-FE8C-4EE4-9803-6C30D10C293B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E56CEE79-FE8C-4EE4-9803-6C30D10C293B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E56CEE79-FE8C-4EE4-9803-6C30D10C293B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD5F9379-699C-4DE8-9EDD-D16196C043D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD5F9379-699C-4DE8-9EDD-D16196C043D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DCF335E-BAA8-4562-85BE-8632AE7AB6CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DCF335E-BAA8-4562-85BE-8632AE7AB6CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DCF335E-BAA8-4562-85BE-8632AE7AB6CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DCF335E-BAA8-4562-85BE-8632AE7AB6CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
