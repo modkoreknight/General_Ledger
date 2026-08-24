@@ -1,0 +1,1 @@
+sqlcmd -S (LOCAL)\SQLEXPRESS -E -d GeneralLedger -Q "ALTER TABLE Customer DROP CONSTRAINT UK_Customer"

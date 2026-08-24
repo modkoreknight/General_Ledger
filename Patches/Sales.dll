@@ -1,0 +1,128 @@
+IF EXISTS (SELECT * FROM sys.objects WHERE [object_id] = OBJECT_ID('dbo.SalesInsert') AND type in ('P', 'PC'))
+BEGIN
+	DROP PROCEDURE dbo.SalesInsert;
+END
+GO
+
+CREATE PROCEDURE dbo.SalesInsert (
+	@SaleCode VARCHAR(16),
+	@SaleDate DATETIME,
+	@SaleAmount DECIMAL(9, 2),
+	@CustomerID INT,
+	@VehicleID INT,
+	@PaymentTerm INT,
+	@TermTotal INT,
+	@AmortStartDate SMALLDATETIME,
+	@AmortAmount DECIMAL(9, 2),
+	@AmortRebate DECIMAL(9, 2),
+	@Status INT,
+	@CashPrice DECIMAL(9, 2),
+	@LCPrice DECIMAL(9, 2),
+	@SINo VARCHAR(16),
+	@SIDate SMALLDATETIME,
+	@InterestRate DECIMAL(5, 2),
+	@Remarks VARCHAR(1024),
+	@Output INT OUTPUT)
+WITH ENCRYPTION
+AS
+BEGIN
+	SET NOCOUNT ON;
+	INSERT INTO dbo.Sales (
+		SaleCode,
+		SaleDate,
+		SaleAmount,
+		CustomerID,
+		VehicleID,
+		PaymentTerm,
+		TermTotal,
+		AmortStartDate,
+		AmortAmount,
+		AmortRebate,
+		Status,
+		CashPrice,
+		LCPrice,
+		SINo,
+		SIDate,
+		InterestRate,
+		Remarks)
+	VALUES (
+		@SaleCode,
+		@SaleDate,
+		@SaleAmount,
+		@CustomerID,
+		@VehicleID,
+		@PaymentTerm,
+		@TermTotal,
+		@AmortStartDate,
+		@AmortAmount,
+		@AmortRebate,
+		@Status,
+		@CashPrice,
+		@LCPrice,
+		@SINo,
+		@SIDate,
+		@InterestRate,
+		@Remarks);
+	SET @Output = SCOPE_IDENTITY();
+	SET NOCOUNT OFF;
+END
+GO
+
+---------------------------------------------------------------------------------------------------
+
+IF EXISTS (SELECT * FROM sys.objects WHERE [object_id] = OBJECT_ID('dbo.SalesUpdate') AND type in ('P', 'PC'))
+BEGIN
+	DROP PROCEDURE dbo.SalesUpdate;
+END
+GO
+
+CREATE PROCEDURE dbo.SalesUpdate (
+	@ID INT,
+	@SaleCode VARCHAR(16),
+	@SaleDate DATETIME,
+	@SaleAmount DECIMAL(9, 2),
+	@CustomerID INT,
+	@VehicleID INT,
+	@PaymentTerm INT,
+	@TermTotal INT,
+	@AmortStartDate SMALLDATETIME,
+	@AmortAmount DECIMAL(9, 2),
+	@AmortRebate DECIMAL(9, 2),
+	@Status INT,
+	@CashPrice DECIMAL(9, 2),
+	@LCPrice DECIMAL(9, 2),
+	@SINo VARCHAR(16),
+	@SIDate SMALLDATETIME,
+	@InterestRate DECIMAL(5, 2),
+	@Remarks VARCHAR(1024))
+WITH ENCRYPTION
+AS
+BEGIN
+	SET NOCOUNT ON;
+	UPDATE dbo.Sales
+	SET
+		SaleCode = @SaleCode,
+		SaleDate = @SaleDate,
+		SaleAmount = @SaleAmount,
+		CustomerID = @CustomerID,
+		VehicleID = @VehicleID,
+		PaymentTerm = @PaymentTerm,
+		TermTotal = @TermTotal,
+		AmortStartDate = @AmortStartDate,
+		AmortAmount = @AmortAmount,
+		AmortRebate = @AmortRebate,
+		Status = @Status,
+		CashPrice = @CashPrice,
+		LCPrice = @LCPrice,
+		SINo = @SINo,
+		SIDate = @SIDate,
+		InterestRate = @InterestRate,
+		Remarks = @Remarks,
+		UpdateDate = GETDATE(),
+		UpdateUser = SYSTEM_USER
+	WHERE
+		ID = @ID;
+	RETURN @@ROWCOUNT;
+	SET NOCOUNT OFF;
+END
+GO

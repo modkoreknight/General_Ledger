@@ -1,0 +1,161 @@
+ALTER TABLE dbo.Vehicle
+ADD
+	VehicleCode VARCHAR(10) NULL;
+GO
+
+---------------------------------------------------------------------------------------------------
+
+IF EXISTS (SELECT * FROM sys.objects WHERE [object_id] = OBJECT_ID('dbo.VehicleSelect') AND type in ('P', 'PC'))
+BEGIN
+	DROP PROCEDURE dbo.VehicleSelect;
+END
+GO
+
+CREATE PROCEDURE dbo.VehicleSelect (
+	@ID INT = NULL)
+WITH ENCRYPTION
+AS
+BEGIN
+	SET NOCOUNT ON;
+	IF @ID IS NULL
+	BEGIN
+		SELECT
+			ID,
+			Brand,
+			Model,
+			Color,
+			EngineNo,
+			ChassisNo,
+			Status,
+			PlateNo,
+			CertReg,
+			OwnerRegID,
+			Remarks,
+			VehicleCode
+		FROM
+			dbo.Vehicle WITH (NOLOCK);
+	END
+	ELSE
+	BEGIN
+		SELECT
+			ID,
+			Brand,
+			Model,
+			Color,
+			EngineNo,
+			ChassisNo,
+			Status,
+			PlateNo,
+			CertReg,
+			OwnerRegID,
+			Remarks,
+			VehicleCode
+		FROM
+			dbo.Vehicle WITH (NOLOCK)
+		WHERE
+			ID = @ID;
+	END
+	SET NOCOUNT OFF;
+END
+GO
+
+---------------------------------------------------------------------------------------------------
+
+IF EXISTS (SELECT * FROM sys.objects WHERE [object_id] = OBJECT_ID('dbo.VehicleInsert') AND type in ('P', 'PC'))
+BEGIN
+	DROP PROCEDURE dbo.VehicleInsert;
+END
+GO
+
+CREATE PROCEDURE dbo.VehicleInsert (
+	@Brand VARCHAR(32),
+	@Model VARCHAR(32),
+	@Color VARCHAR(32),
+	@EngineNo VARCHAR(32),
+	@ChassisNo VARCHAR(32),
+	@Status INT,
+	@PlateNo VARCHAR(32),
+	@CertReg VARCHAR(32),
+	@OwnerRegID INT,
+	@Remarks VARCHAR(1024),
+	@VehicleCode VARCHAR(10),
+	@Output INT OUTPUT)
+WITH ENCRYPTION
+AS
+BEGIN
+	SET NOCOUNT ON;
+	INSERT INTO dbo.Vehicle (
+		Brand,
+		Model,
+		Color,
+		EngineNo,
+		ChassisNo,
+		Status,
+		PlateNo,
+		CertReg,
+		OwnerRegID,
+		Remarks,
+		VehicleCode)
+	VALUES (
+		@Brand,
+		@Model,
+		@Color,
+		@EngineNo,
+		@ChassisNo,
+		@Status,
+		@PlateNo,
+		@CertReg,
+		@OwnerRegID,
+		@Remarks,
+		@VehicleCode);
+	SET @Output = SCOPE_IDENTITY();
+	SET NOCOUNT OFF;
+END
+GO
+
+---------------------------------------------------------------------------------------------------
+
+IF EXISTS (SELECT * FROM sys.objects WHERE [object_id] = OBJECT_ID('dbo.VehicleUpdate') AND type in ('P', 'PC'))
+BEGIN
+	DROP PROCEDURE dbo.VehicleUpdate;
+END
+GO
+
+CREATE PROCEDURE dbo.VehicleUpdate (
+	@ID INT,
+	@Brand VARCHAR(32),
+	@Model VARCHAR(32),
+	@Color VARCHAR(32),
+	@EngineNo VARCHAR(32),
+	@ChassisNo VARCHAR(32),
+	@Status INT,
+	@PlateNo VARCHAR(32),
+	@CertReg VARCHAR(32),
+	@OwnerRegID INT,
+	@Remarks VARCHAR(1024),
+	@VehicleCode VARCHAR(10))
+WITH ENCRYPTION
+AS
+BEGIN
+	SET NOCOUNT ON;
+	UPDATE dbo.Vehicle
+	SET
+		Brand = @Brand,
+		Model = @Model,
+		Color = @Color,
+		EngineNo = @EngineNo,
+		ChassisNo = @ChassisNo,
+		Status = @Status,
+		PlateNo = @PlateNo,
+		CertReg = @CertReg,
+		OwnerRegID = @OwnerRegID,
+		Remarks = @Remarks,
+		VehicleCode = @VehicleCode,
+		UpdateDate = GETDATE(),
+		UpdateUser = SYSTEM_USER
+	WHERE
+		ID = @ID;
+	RETURN @@ROWCOUNT;
+	SET NOCOUNT OFF;
+END
+GO

@@ -1,0 +1,292 @@
+ALTER TABLE dbo.Sales
+ADD
+	BalanceFwd DECIMAL(9, 2) NULL,
+	DueDate01 SMALLDATETIME NULL,
+	DueDate02 SMALLDATETIME NULL;
+GO
+
+---------------------------------------------------------------------------------------------------
+
+IF EXISTS (SELECT * FROM sys.objects WHERE [object_id] = OBJECT_ID('dbo.SalesSelect') AND type in ('P', 'PC'))
+BEGIN
+	DROP PROCEDURE dbo.SalesSelect;
+END
+GO
+
+CREATE PROCEDURE dbo.SalesSelect (
+	@ID INT = NULL,
+	@CustomerID INT = NULL,
+	@Status INT = NULL)
+WITH ENCRYPTION
+AS
+BEGIN
+	SET NOCOUNT ON;
+	IF @ID IS NULL
+	BEGIN
+		IF @CustomerID IS NULL
+		BEGIN
+			IF @Status IS NULL
+			BEGIN
+				SELECT
+					ID,
+					SaleCode,
+					SaleDate,
+					SaleAmount,
+					CustomerID,
+					VehicleID,
+					PaymentTerm,
+					TermTotal,
+					AmortStartDate,
+					AmortAmount,
+					AmortRebate,
+					Status,
+					CashPrice,
+					LCPrice,
+					SINo,
+					SIDate,
+					InterestRate,
+					Remarks,
+					BalanceFwd,
+					DueDate01,
+					DueDate02
+				FROM
+					dbo.Sales WITH (NOLOCK);
+			END
+			ELSE
+			BEGIN
+				SELECT
+					ID,
+					SaleCode,
+					SaleDate,
+					SaleAmount,
+					CustomerID,
+					VehicleID,
+					PaymentTerm,
+					TermTotal,
+					AmortStartDate,
+					AmortAmount,
+					AmortRebate,
+					Status,
+					CashPrice,
+					LCPrice,
+					SINo,
+					SIDate,
+					InterestRate,
+					Remarks,
+					BalanceFwd,
+					DueDate01,
+					DueDate02
+				FROM
+					dbo.Sales WITH (NOLOCK)
+				WHERE
+					Status = @Status;
+			END
+		END
+		ELSE
+		BEGIN
+			SELECT
+				ID,
+				SaleCode,
+				SaleDate,
+				SaleAmount,
+				CustomerID,
+				VehicleID,
+				PaymentTerm,
+				TermTotal,
+				AmortStartDate,
+				AmortAmount,
+				AmortRebate,
+				Status,
+				CashPrice,
+				LCPrice,
+				SINo,
+				SIDate,
+				InterestRate,
+				Remarks,
+				BalanceFwd,
+				DueDate01,
+				DueDate02
+			FROM
+				dbo.Sales WITH (NOLOCK)
+			WHERE
+				CustomerID = @CustomerID;
+		END
+	END
+	ELSE
+	BEGIN
+		SELECT
+			ID,
+			SaleCode,
+			SaleDate,
+			SaleAmount,
+			CustomerID,
+			VehicleID,
+			PaymentTerm,
+			TermTotal,
+			AmortStartDate,
+			AmortAmount,
+			AmortRebate,
+			Status,
+			CashPrice,
+			LCPrice,
+			SINo,
+			SIDate,
+			InterestRate,
+			Remarks,
+			BalanceFwd,
+			DueDate01,
+			DueDate02
+		FROM
+			dbo.Sales WITH (NOLOCK)
+		WHERE
+			ID = @ID;
+	END
+	SET NOCOUNT OFF;
+END
+GO
+
+---------------------------------------------------------------------------------------------------
+
+IF EXISTS (SELECT * FROM sys.objects WHERE [object_id] = OBJECT_ID('dbo.SalesInsert') AND type in ('P', 'PC'))
+BEGIN
+	DROP PROCEDURE dbo.SalesInsert;
+END
+GO
+
+CREATE PROCEDURE dbo.SalesInsert (
+	@SaleCode VARCHAR(16),
+	@SaleDate DATETIME,
+	@SaleAmount DECIMAL(9, 2),
+	@CustomerID INT,
+	@VehicleID INT,
+	@PaymentTerm INT,
+	@TermTotal INT,
+	@AmortStartDate SMALLDATETIME,
+	@AmortAmount DECIMAL(9, 2),
+	@AmortRebate DECIMAL(9, 2),
+	@Status INT,
+	@CashPrice DECIMAL(9, 2),
+	@LCPrice DECIMAL(9, 2),
+	@SINo VARCHAR(16),
+	@SIDate SMALLDATETIME,
+	@InterestRate DECIMAL(5, 2),
+	@Remarks VARCHAR(1024),
+	@BalanceFwd DECIMAL(9, 2),
+	@DueDate01 SMALLDATETIME,
+	@DueDate02 SMALLDATETIME,
+	@Output INT OUTPUT)
+WITH ENCRYPTION
+AS
+BEGIN
+	SET NOCOUNT ON;
+	INSERT INTO dbo.Sales (
+		SaleCode,
+		SaleDate,
+		SaleAmount,
+		CustomerID,
+		VehicleID,
+		PaymentTerm,
+		TermTotal,
+		AmortStartDate,
+		AmortAmount,
+		AmortRebate,
+		Status,
+		CashPrice,
+		LCPrice,
+		SINo,
+		SIDate,
+		InterestRate,
+		Remarks,
+		BalanceFwd,
+		DueDate01,
+		DueDate02)
+	VALUES (
+		@SaleCode,
+		@SaleDate,
+		@SaleAmount,
+		@CustomerID,
+		@VehicleID,
+		@PaymentTerm,
+		@TermTotal,
+		@AmortStartDate,
+		@AmortAmount,
+		@AmortRebate,
+		@Status,
+		@CashPrice,
+		@LCPrice,
+		@SINo,
+		@SIDate,
+		@InterestRate,
+		@Remarks,
+		@BalanceFwd,
+		@DueDate01,
+		@DueDate02);
+	SET @Output = SCOPE_IDENTITY();
+	SET NOCOUNT OFF;
+END
+GO
+
+---------------------------------------------------------------------------------------------------
+
+IF EXISTS (SELECT * FROM sys.objects WHERE [object_id] = OBJECT_ID('dbo.SalesUpdate') AND type in ('P', 'PC'))
+BEGIN
+	DROP PROCEDURE dbo.SalesUpdate;
+END
+GO
+
+CREATE PROCEDURE dbo.SalesUpdate (
+	@ID INT,
+	@SaleCode VARCHAR(16),
+	@SaleDate DATETIME,
+	@SaleAmount DECIMAL(9, 2),
+	@CustomerID INT,
+	@VehicleID INT,
+	@PaymentTerm INT,
+	@TermTotal INT,
+	@AmortStartDate SMALLDATETIME,
+	@AmortAmount DECIMAL(9, 2),
+	@AmortRebate DECIMAL(9, 2),
+	@Status INT,
+	@CashPrice DECIMAL(9, 2),
+	@LCPrice DECIMAL(9, 2),
+	@SINo VARCHAR(16),
+	@SIDate SMALLDATETIME,
+	@InterestRate DECIMAL(5, 2),
+	@Remarks VARCHAR(1024),
+	@BalanceFwd DECIMAL(9, 2),
+	@DueDate01 SMALLDATETIME,
+	@DueDate02 SMALLDATETIME)
+WITH ENCRYPTION
+AS
+BEGIN
+	SET NOCOUNT ON;
+	UPDATE dbo.Sales
+	SET
+		SaleCode = @SaleCode,
+		SaleDate = @SaleDate,
+		SaleAmount = @SaleAmount,
+		CustomerID = @CustomerID,
+		VehicleID = @VehicleID,
+		PaymentTerm = @PaymentTerm,
+		TermTotal = @TermTotal,
+		AmortStartDate = @AmortStartDate,
+		AmortAmount = @AmortAmount,
+		AmortRebate = @AmortRebate,
+		Status = @Status,
+		CashPrice = @CashPrice,
+		LCPrice = @LCPrice,
+		SINo = @SINo,
+		SIDate = @SIDate,
+		InterestRate = @InterestRate,
+		Remarks = @Remarks,
+		BalanceFwd = @BalanceFwd,
+		DueDate01 = @DueDate01,
+		DueDate02 = @DueDate02,
+		UpdateDate = GETDATE(),
+		UpdateUser = SYSTEM_USER
+	WHERE
+		ID = @ID;
+	RETURN @@ROWCOUNT;
+	SET NOCOUNT OFF;
+END
+GO

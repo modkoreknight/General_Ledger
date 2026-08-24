@@ -1,0 +1,118 @@
+IF EXISTS (SELECT * FROM sys.objects WHERE [object_id] = OBJECT_ID('dbo.PaymentInsert') AND type in ('P', 'PC'))
+BEGIN
+	DROP PROCEDURE dbo.PaymentInsert;
+END
+GO
+
+CREATE PROCEDURE dbo.PaymentInsert (
+	@SalesID INT,
+	@PaymentNo VARCHAR(16),
+	@PaymentDate DATETIME,
+	@PaymentAmount DECIMAL(9, 2),
+	@Rebate DECIMAL(9, 2),
+	@Mode INT,
+	@CheckNo VARCHAR(16),
+	@Status INT,
+	@InstNo INT,
+	@MonthApplied VARCHAR(16),
+	@Due DECIMAL(9, 2),
+	@Overdue DECIMAL(9, 2),
+	@Debit DECIMAL(9, 2),
+	@Credit DECIMAL(9, 2),
+	@Remarks VARCHAR(1024),
+	@Output INT OUTPUT)
+WITH ENCRYPTION
+AS
+BEGIN
+	SET NOCOUNT ON;
+	INSERT INTO dbo.Payment (
+		SalesID,
+		PaymentNo,
+		PaymentDate,
+		PaymentAmount,
+		Rebate,
+		Mode,
+		CheckNo,
+		Status,
+		InstNo,
+		MonthApplied,
+		Due,
+		Overdue,
+		Debit,
+		Credit,
+		Remarks)
+	VALUES (
+		@SalesID,
+		@PaymentNo,
+		@PaymentDate,
+		@PaymentAmount,
+		@Rebate,
+		@Mode,
+		@CheckNo,
+		@Status,
+		@InstNo,
+		@MonthApplied,
+		@Due,
+		@Overdue,
+		@Debit,
+		@Credit,
+		@Remarks);
+	SET @Output = SCOPE_IDENTITY();
+	SET NOCOUNT OFF;
+END
+GO
+
+---------------------------------------------------------------------------------------------------
+
+IF EXISTS (SELECT * FROM sys.objects WHERE [object_id] = OBJECT_ID('dbo.PaymentUpdate') AND type in ('P', 'PC'))
+BEGIN
+	DROP PROCEDURE dbo.PaymentUpdate;
+END
+GO
+
+CREATE PROCEDURE dbo.PaymentUpdate (
+	@ID INT,
+	@SalesID INT,
+	@PaymentNo VARCHAR(16),
+	@PaymentDate DATETIME,
+	@PaymentAmount DECIMAL(9, 2),
+	@Rebate DECIMAL(9, 2),
+	@Mode INT,
+	@CheckNo VARCHAR(16),
+	@Status INT,
+	@InstNo INT,
+	@MonthApplied VARCHAR(16),
+	@Due DECIMAL(9, 2),
+	@Overdue DECIMAL(9, 2),
+	@Debit DECIMAL(9, 2),
+	@Credit DECIMAL(9, 2),
+	@Remarks VARCHAR(1024))
+WITH ENCRYPTION
+AS
+BEGIN
+	SET NOCOUNT ON;
+	UPDATE dbo.Payment
+	SET
+		SalesID = @SalesID,
+		PaymentNo = @PaymentNo,
+		PaymentDate = @PaymentDate,
+		PaymentAmount = @PaymentAmount,
+		Rebate = @Rebate,
+		Mode = @Mode,
+		CheckNo = @CheckNo,
+		Status = @Status,
+		InstNo = @InstNo,
+		MonthApplied = @MonthApplied,
+		Due = @Due,
+		Overdue = @Overdue,
+		Debit = @Debit,
+		Credit = @Credit,
+		Remarks = @Remarks,
+		UpdateDate = GETDATE(),
+		UpdateUser = SYSTEM_USER
+	WHERE
+		ID = @ID;
+	RETURN @@ROWCOUNT;
+	SET NOCOUNT OFF;
+END
+GO
