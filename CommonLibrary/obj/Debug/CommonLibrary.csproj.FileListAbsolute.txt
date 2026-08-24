@@ -1,0 +1,156 @@
+C:\Temp\GeneralLedger\CommonLibrary\bin\Debug\CommonLibrary.dll
+C:\Temp\GeneralLedger\CommonLibrary\bin\Debug\CommonLibrary.pdb
+C:\Temp\GeneralLedger\CommonLibrary\bin\Debug\BusinessLogic.dll
+C:\Temp\GeneralLedger\CommonLibrary\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
+C:\Temp\GeneralLedger\CommonLibrary\bin\Debug\Microsoft.SqlServer.Smo.dll
+C:\Temp\GeneralLedger\CommonLibrary\bin\Debug\Microsoft.SqlServer.SmoEnum.dll
+C:\Temp\GeneralLedger\CommonLibrary\bin\Debug\Microsoft.SqlServer.SqlEnum.dll
+C:\Temp\GeneralLedger\CommonLibrary\bin\Debug\Microsoft.SqlServer.BatchParser.dll
+C:\Temp\GeneralLedger\CommonLibrary\bin\Debug\Microsoft.SqlServer.Rmo.dll
+C:\Temp\GeneralLedger\CommonLibrary\bin\Debug\Microsoft.SqlServer.WmiEnum.dll
+C:\Temp\GeneralLedger\CommonLibrary\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.dll
+C:\Temp\GeneralLedger\CommonLibrary\bin\Debug\Microsoft.SqlServer.RegSvrEnum.dll
+C:\Temp\GeneralLedger\CommonLibrary\bin\Debug\Microsoft.SqlServer.Replication.dll
+C:\Temp\GeneralLedger\CommonLibrary\bin\Debug\BusinessLogic.pdb
+C:\Temp\GeneralLedger\CommonLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Temp\GeneralLedger\CommonLibrary\obj\Debug\CommonLibrary.dll
+C:\Temp\GeneralLedger\CommonLibrary\obj\Debug\CommonLibrary.pdb
+D:\Temporary\GeneralLedger\CommonLibrary\bin\Debug\CommonLibrary.dll
+D:\Temporary\GeneralLedger\CommonLibrary\bin\Debug\CommonLibrary.pdb
+D:\Temporary\GeneralLedger\CommonLibrary\bin\Debug\BusinessLogic.dll
+D:\Temporary\GeneralLedger\CommonLibrary\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
+D:\Temporary\GeneralLedger\CommonLibrary\bin\Debug\Microsoft.SqlServer.Smo.dll
+D:\Temporary\GeneralLedger\CommonLibrary\bin\Debug\Microsoft.SqlServer.SmoEnum.dll
+D:\Temporary\GeneralLedger\CommonLibrary\bin\Debug\Microsoft.SqlServer.SqlEnum.dll
+D:\Temporary\GeneralLedger\CommonLibrary\bin\Debug\Microsoft.SqlServer.BatchParser.dll
+D:\Temporary\GeneralLedger\CommonLibrary\bin\Debug\Microsoft.SqlServer.Rmo.dll
+D:\Temporary\GeneralLedger\CommonLibrary\bin\Debug\Microsoft.SqlServer.WmiEnum.dll
+D:\Temporary\GeneralLedger\CommonLibrary\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.dll
+D:\Temporary\GeneralLedger\CommonLibrary\bin\Debug\Microsoft.SqlServer.RegSvrEnum.dll
+D:\Temporary\GeneralLedger\CommonLibrary\bin\Debug\Microsoft.SqlServer.Replication.dll
+D:\Temporary\GeneralLedger\CommonLibrary\bin\Debug\BusinessLogic.pdb
+D:\Temporary\GeneralLedger\CommonLibrary\obj\Debug\CommonLibrary.csprojResolveAssemblyReference.cache
+D:\Temporary\GeneralLedger\CommonLibrary\obj\Debug\CommonLibrary.dll
+D:\Temporary\GeneralLedger\CommonLibrary\obj\Debug\CommonLibrary.pdb
+C:\Users\LSMJ\Documents\LSMJ Final\CommonLibrary\bin\Debug\CommonLibrary.dll
+C:\Users\LSMJ\Documents\LSMJ Final\CommonLibrary\bin\Debug\CommonLibrary.pdb
+C:\Users\LSMJ\Documents\LSMJ Final\CommonLibrary\bin\Debug\BusinessLogic.dll
+C:\Users\LSMJ\Documents\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
+C:\Users\LSMJ\Documents\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.Smo.dll
+C:\Users\LSMJ\Documents\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.SmoEnum.dll
+C:\Users\LSMJ\Documents\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.SqlEnum.dll
+C:\Users\LSMJ\Documents\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.BatchParser.dll
+C:\Users\LSMJ\Documents\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.Rmo.dll
+C:\Users\LSMJ\Documents\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.WmiEnum.dll
+C:\Users\LSMJ\Documents\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.dll
+C:\Users\LSMJ\Documents\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.RegSvrEnum.dll
+C:\Users\LSMJ\Documents\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.Replication.dll
+C:\Users\LSMJ\Documents\LSMJ Final\CommonLibrary\bin\Debug\BusinessLogic.pdb
+C:\Users\LSMJ\Documents\LSMJ Final\CommonLibrary\obj\Debug\CommonLibrary.csprojResolveAssemblyReference.cache
+C:\Users\LSMJ\Documents\LSMJ Final\CommonLibrary\obj\Debug\CommonLibrary.dll
+C:\Users\LSMJ\Documents\LSMJ Final\CommonLibrary\obj\Debug\CommonLibrary.pdb
+E:\LSMJ Final\CommonLibrary\bin\Debug\CommonLibrary.dll
+E:\LSMJ Final\CommonLibrary\bin\Debug\CommonLibrary.pdb
+E:\LSMJ Final\CommonLibrary\bin\Debug\BusinessLogic.dll
+E:\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
+E:\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.Smo.dll
+E:\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.SmoEnum.dll
+E:\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.SqlEnum.dll
+E:\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.BatchParser.dll
+E:\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.Rmo.dll
+E:\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.WmiEnum.dll
+E:\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.dll
+E:\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.RegSvrEnum.dll
+E:\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.Replication.dll
+E:\LSMJ Final\CommonLibrary\bin\Debug\BusinessLogic.pdb
+E:\LSMJ Final\CommonLibrary\obj\Debug\CommonLibrary.csprojResolveAssemblyReference.cache
+E:\LSMJ Final\CommonLibrary\obj\Debug\CommonLibrary.dll
+E:\LSMJ Final\CommonLibrary\obj\Debug\CommonLibrary.pdb
+C:\Users\MIS HOME\Documents\LSMJ Final\CommonLibrary\bin\Debug\CommonLibrary.dll
+C:\Users\MIS HOME\Documents\LSMJ Final\CommonLibrary\bin\Debug\CommonLibrary.pdb
+C:\Users\MIS HOME\Documents\LSMJ Final\CommonLibrary\bin\Debug\BusinessLogic.dll
+C:\Users\MIS HOME\Documents\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
+C:\Users\MIS HOME\Documents\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.Smo.dll
+C:\Users\MIS HOME\Documents\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.SmoEnum.dll
+C:\Users\MIS HOME\Documents\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.SqlEnum.dll
+C:\Users\MIS HOME\Documents\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.BatchParser.dll
+C:\Users\MIS HOME\Documents\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.Rmo.dll
+C:\Users\MIS HOME\Documents\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.WmiEnum.dll
+C:\Users\MIS HOME\Documents\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.dll
+C:\Users\MIS HOME\Documents\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.RegSvrEnum.dll
+C:\Users\MIS HOME\Documents\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.Replication.dll
+C:\Users\MIS HOME\Documents\LSMJ Final\CommonLibrary\bin\Debug\BusinessLogic.pdb
+C:\Users\MIS HOME\Documents\LSMJ Final\CommonLibrary\obj\Debug\CommonLibrary.csprojResolveAssemblyReference.cache
+C:\Users\MIS HOME\Documents\LSMJ Final\CommonLibrary\obj\Debug\CommonLibrary.dll
+C:\Users\MIS HOME\Documents\LSMJ Final\CommonLibrary\obj\Debug\CommonLibrary.pdb
+C:\Users\MIS HOME\Desktop\LSMJ Final\CommonLibrary\bin\Debug\CommonLibrary.dll
+C:\Users\MIS HOME\Desktop\LSMJ Final\CommonLibrary\bin\Debug\CommonLibrary.pdb
+C:\Users\MIS HOME\Desktop\LSMJ Final\CommonLibrary\bin\Debug\BusinessLogic.dll
+C:\Users\MIS HOME\Desktop\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
+C:\Users\MIS HOME\Desktop\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.Smo.dll
+C:\Users\MIS HOME\Desktop\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.SmoEnum.dll
+C:\Users\MIS HOME\Desktop\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.SqlEnum.dll
+C:\Users\MIS HOME\Desktop\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.BatchParser.dll
+C:\Users\MIS HOME\Desktop\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.Rmo.dll
+C:\Users\MIS HOME\Desktop\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.WmiEnum.dll
+C:\Users\MIS HOME\Desktop\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.dll
+C:\Users\MIS HOME\Desktop\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.RegSvrEnum.dll
+C:\Users\MIS HOME\Desktop\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.Replication.dll
+C:\Users\MIS HOME\Desktop\LSMJ Final\CommonLibrary\bin\Debug\BusinessLogic.pdb
+C:\Users\MIS HOME\Desktop\LSMJ Final\CommonLibrary\obj\Debug\CommonLibrary.csprojResolveAssemblyReference.cache
+C:\Users\MIS HOME\Desktop\LSMJ Final\CommonLibrary\obj\Debug\CommonLibrary.dll
+C:\Users\MIS HOME\Desktop\LSMJ Final\CommonLibrary\obj\Debug\CommonLibrary.pdb
+F:\LSMJ Final\CommonLibrary\bin\Debug\CommonLibrary.dll
+F:\LSMJ Final\CommonLibrary\bin\Debug\CommonLibrary.pdb
+F:\LSMJ Final\CommonLibrary\bin\Debug\BusinessLogic.dll
+F:\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
+F:\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.Smo.dll
+F:\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.SmoEnum.dll
+F:\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.SqlEnum.dll
+F:\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.BatchParser.dll
+F:\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.Rmo.dll
+F:\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.WmiEnum.dll
+F:\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.dll
+F:\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.RegSvrEnum.dll
+F:\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.Replication.dll
+F:\LSMJ Final\CommonLibrary\bin\Debug\BusinessLogic.pdb
+F:\LSMJ Final\CommonLibrary\obj\Debug\CommonLibrary.csprojResolveAssemblyReference.cache
+F:\LSMJ Final\CommonLibrary\obj\Debug\CommonLibrary.dll
+F:\LSMJ Final\CommonLibrary\obj\Debug\CommonLibrary.pdb
+C:\Users\TON\Documents\LSMJ Final\CommonLibrary\bin\Debug\CommonLibrary.dll
+C:\Users\TON\Documents\LSMJ Final\CommonLibrary\bin\Debug\CommonLibrary.pdb
+C:\Users\TON\Documents\LSMJ Final\CommonLibrary\bin\Debug\BusinessLogic.dll
+C:\Users\TON\Documents\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
+C:\Users\TON\Documents\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.Smo.dll
+C:\Users\TON\Documents\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.SmoEnum.dll
+C:\Users\TON\Documents\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.SqlEnum.dll
+C:\Users\TON\Documents\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.BatchParser.dll
+C:\Users\TON\Documents\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.Rmo.dll
+C:\Users\TON\Documents\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.WmiEnum.dll
+C:\Users\TON\Documents\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.dll
+C:\Users\TON\Documents\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.RegSvrEnum.dll
+C:\Users\TON\Documents\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.Replication.dll
+C:\Users\TON\Documents\LSMJ Final\CommonLibrary\bin\Debug\BusinessLogic.pdb
+C:\Users\TON\Documents\LSMJ Final\CommonLibrary\obj\Debug\CommonLibrary.csprojResolveAssemblyReference.cache
+C:\Users\TON\Documents\LSMJ Final\CommonLibrary\obj\Debug\CommonLibrary.dll
+C:\Users\TON\Documents\LSMJ Final\CommonLibrary\obj\Debug\CommonLibrary.pdb
+D:\LSMJ Final\CommonLibrary\bin\Debug\CommonLibrary.dll
+D:\LSMJ Final\CommonLibrary\bin\Debug\CommonLibrary.pdb
+D:\LSMJ Final\CommonLibrary\bin\Debug\BusinessLogic.dll
+D:\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
+D:\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.Smo.dll
+D:\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.SmoEnum.dll
+D:\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.SqlEnum.dll
+D:\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.BatchParser.dll
+D:\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.Rmo.dll
+D:\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.WmiEnum.dll
+D:\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.dll
+D:\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.RegSvrEnum.dll
+D:\LSMJ Final\CommonLibrary\bin\Debug\Microsoft.SqlServer.Replication.dll
+D:\LSMJ Final\CommonLibrary\bin\Debug\BusinessLogic.pdb
+D:\LSMJ Final\CommonLibrary\obj\Debug\CommonLibrary.csprojResolveAssemblyReference.cache
+D:\LSMJ Final\CommonLibrary\obj\Debug\CommonLibrary.dll
+D:\LSMJ Final\CommonLibrary\obj\Debug\CommonLibrary.pdb
+C:\Users\Admin\Documents\LSMJ Final Edited\LSMJ Final\CommonLibrary\obj\Debug\CommonLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\LSMJ Final Edited\LSMJ Final\CommonLibrary\obj\Debug\CommonLibrary.dll
+C:\Users\Admin\Documents\LSMJ Final Edited\LSMJ Final\CommonLibrary\obj\Debug\CommonLibrary.pdb
